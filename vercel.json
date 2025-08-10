@@ -1,9 +1,6 @@
 {
   "name": "sofia-ops-dashboard",
   "version": 2,
-  "env": {
-    "NEXT_PUBLIC_METRICS_ENDPOINT": "@sofia-metrics-endpoint"
-  },
   "functions": {
     "src/app/**/*.tsx": {
       "maxDuration": 30
